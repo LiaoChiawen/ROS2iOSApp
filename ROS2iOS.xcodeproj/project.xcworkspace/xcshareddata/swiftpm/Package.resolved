@@ -1,0 +1,68 @@
+{
+  "pins" : [
+    {
+      "identity" : "cdrcodable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DimaRU/CDRCodable.git",
+      "state" : {
+        "revision" : "6464c8bd3deea674af32f6ce062053d04cc87427",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "fastddsprebuild",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/DimaRU/FastDDSPrebuild.git",
+      "state" : {
+        "revision" : "f3316752744b23c0c28b9f536b9fac60375e71a3",
+        "version" : "2.13.1"
+      }
+    },
+    {
+      "identity" : "fastrtpsswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kabirkedia/FastRTPSSwift",
+      "state" : {
+        "branch" : "fastdds2024",
+        "revision" : "959e7ef618480e5593f159ee54767ba4943ec421"
+      }
+    },
+    {
+      "identity" : "ros2msg",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LiaoChiawen/ros2msg.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7a817979da0b17468004811a6f044d67170eb7a5"
+      }
+    },
+    {
+      "identity" : "semaphore",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/groue/Semaphore.git",
+      "state" : {
+        "revision" : "f1c4a0acabeb591068dea6cffdd39660b86dec28",
+        "version" : "0.0.8"
+      }
+    },
+    {
+      "identity" : "swift-ros2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LiaoChiawen/swift-ros2.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "22f7c3dd0bdf8007d4ed58f7b52faf702d5cda15"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "64889f0c732f210a935a0ad7cda38f77f876262d",
+        "version" : "509.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}

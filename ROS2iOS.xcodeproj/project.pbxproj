@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B7E2AC2DC0C308007D4547 /* PublisherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B7E2AB2DC0C308007D4547 /* PublisherModel.swift */; };
+		80B7E2AF2DC15A6D007D4547 /* SwiftROS2 in Frameworks */ = {isa = PBXBuildFile; productRef = 80B7E2AE2DC15A6D007D4547 /* SwiftROS2 */; };
+		80BE2CFF2DAF6F2C0084C2C2 /* ROS2iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE2CFE2DAF6F2C0084C2C2 /* ROS2iOSApp.swift */; };
+		80BE2D012DAF6F2C0084C2C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE2D002DAF6F2C0084C2C2 /* ContentView.swift */; };
+		80BE2D032DAF6F350084C2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BE2D022DAF6F350084C2C2 /* Assets.xcassets */; };
+		80BE2D062DAF6F350084C2C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BE2D052DAF6F350084C2C2 /* Preview Assets.xcassets */; };
+		80BE2D312DB6D7380084C2C2 /* InternetUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BE2D302DB6D7380084C2C2 /* InternetUtils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80BE2D0C2DAF6F350084C2C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BE2CF32DAF6F2C0084C2C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BE2CFA2DAF6F2C0084C2C2;
+			remoteInfo = ROS2iOSApp;
+		};
+		80BE2D162DAF6F350084C2C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BE2CF32DAF6F2C0084C2C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BE2CFA2DAF6F2C0084C2C2;
+			remoteInfo = ROS2iOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80B7E2AB2DC0C308007D4547 /* PublisherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherModel.swift; sourceTree = "<group>"; };
+		80BE2CFB2DAF6F2C0084C2C2 /* ROS2iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ROS2iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BE2CFE2DAF6F2C0084C2C2 /* ROS2iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROS2iOSApp.swift; sourceTree = "<group>"; };
+		80BE2D002DAF6F2C0084C2C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80BE2D022DAF6F350084C2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80BE2D052DAF6F350084C2C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80BE2D0B2DAF6F350084C2C2 /* ROS2iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROS2iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BE2D152DAF6F350084C2C2 /* ROS2iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ROS2iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BE2D292DB578410084C2C2 /* SimpleROS2msg */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SimpleROS2msg; sourceTree = "<group>"; };
+		80BE2D302DB6D7380084C2C2 /* InternetUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetUtils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80BE2CF82DAF6F2C0084C2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B7E2AF2DC15A6D007D4547 /* SwiftROS2 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BE2D082DAF6F350084C2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BE2D122DAF6F350084C2C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80BE2CF22DAF6F2C0084C2C2 = {
+			isa = PBXGroup;
+			children = (
+				80BE2CFD2DAF6F2C0084C2C2 /* ROS2iOS */,
+				80BE2CFC2DAF6F2C0084C2C2 /* Products */,
+				80BE2D382DB6EF770084C2C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80BE2CFC2DAF6F2C0084C2C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80BE2CFB2DAF6F2C0084C2C2 /* ROS2iOS.app */,
+				80BE2D0B2DAF6F350084C2C2 /* ROS2iOSTests.xctest */,
+				80BE2D152DAF6F350084C2C2 /* ROS2iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80BE2CFD2DAF6F2C0084C2C2 /* ROS2iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80BE2CFE2DAF6F2C0084C2C2 /* ROS2iOSApp.swift */,
+				80BE2D002DAF6F2C0084C2C2 /* ContentView.swift */,
+				80BE2D022DAF6F350084C2C2 /* Assets.xcassets */,
+				80BE2D042DAF6F350084C2C2 /* Preview Content */,
+				80BE2D302DB6D7380084C2C2 /* InternetUtils.swift */,
+				80B7E2AB2DC0C308007D4547 /* PublisherModel.swift */,
+			);
+			path = ROS2iOS;
+			sourceTree = "<group>";
+		};
+		80BE2D042DAF6F350084C2C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				80BE2D292DB578410084C2C2 /* SimpleROS2msg */,
+				80BE2D052DAF6F350084C2C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80BE2D382DB6EF770084C2C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80BE2CFA2DAF6F2C0084C2C2 /* ROS2iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BE2D1F2DAF6F350084C2C2 /* Build configuration list for PBXNativeTarget "ROS2iOS" */;
+			buildPhases = (
+				80BE2CF72DAF6F2C0084C2C2 /* Sources */,
+				80BE2CF82DAF6F2C0084C2C2 /* Frameworks */,
+				80BE2CF92DAF6F2C0084C2C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ROS2iOS;
+			packageProductDependencies = (
+				80B7E2AE2DC15A6D007D4547 /* SwiftROS2 */,
+			);
+			productName = ROS2iOSApp;
+			productReference = 80BE2CFB2DAF6F2C0084C2C2 /* ROS2iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80BE2D0A2DAF6F350084C2C2 /* ROS2iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BE2D222DAF6F350084C2C2 /* Build configuration list for PBXNativeTarget "ROS2iOSTests" */;
+			buildPhases = (
+				80BE2D072DAF6F350084C2C2 /* Sources */,
+				80BE2D082DAF6F350084C2C2 /* Frameworks */,
+				80BE2D092DAF6F350084C2C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BE2D0D2DAF6F350084C2C2 /* PBXTargetDependency */,
+			);
+			name = ROS2iOSTests;
+			productName = ROS2iOSAppTests;
+			productReference = 80BE2D0B2DAF6F350084C2C2 /* ROS2iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80BE2D142DAF6F350084C2C2 /* ROS2iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BE2D252DAF6F350084C2C2 /* Build configuration list for PBXNativeTarget "ROS2iOSUITests" */;
+			buildPhases = (
+				80BE2D112DAF6F350084C2C2 /* Sources */,
+				80BE2D122DAF6F350084C2C2 /* Frameworks */,
+				80BE2D132DAF6F350084C2C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BE2D172DAF6F350084C2C2 /* PBXTargetDependency */,
+			);
+			name = ROS2iOSUITests;
+			productName = ROS2iOSAppUITests;
+			productReference = 80BE2D152DAF6F350084C2C2 /* ROS2iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80BE2CF32DAF6F2C0084C2C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					80BE2CFA2DAF6F2C0084C2C2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					80BE2D0A2DAF6F350084C2C2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 80BE2CFA2DAF6F2C0084C2C2;
+					};
+					80BE2D142DAF6F350084C2C2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 80BE2CFA2DAF6F2C0084C2C2;
+					};
+				};
+			};
+			buildConfigurationList = 80BE2CF62DAF6F2C0084C2C2 /* Build configuration list for PBXProject "ROS2iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80BE2CF22DAF6F2C0084C2C2;
+			packageReferences = (
+				80B7E2AD2DC15A6D007D4547 /* XCRemoteSwiftPackageReference "swift-ros2" */,
+			);
+			productRefGroup = 80BE2CFC2DAF6F2C0084C2C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80BE2CFA2DAF6F2C0084C2C2 /* ROS2iOS */,
+				80BE2D0A2DAF6F350084C2C2 /* ROS2iOSTests */,
+				80BE2D142DAF6F350084C2C2 /* ROS2iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80BE2CF92DAF6F2C0084C2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BE2D062DAF6F350084C2C2 /* Preview Assets.xcassets in Resources */,
+				80BE2D032DAF6F350084C2C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BE2D092DAF6F350084C2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BE2D132DAF6F350084C2C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80BE2CF72DAF6F2C0084C2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BE2D312DB6D7380084C2C2 /* InternetUtils.swift in Sources */,
+				80BE2D012DAF6F2C0084C2C2 /* ContentView.swift in Sources */,
+				80B7E2AC2DC0C308007D4547 /* PublisherModel.swift in Sources */,
+				80BE2CFF2DAF6F2C0084C2C2 /* ROS2iOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BE2D072DAF6F350084C2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BE2D112DAF6F350084C2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80BE2D0D2DAF6F350084C2C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BE2CFA2DAF6F2C0084C2C2 /* ROS2iOS */;
+			targetProxy = 80BE2D0C2DAF6F350084C2C2 /* PBXContainerItemProxy */;
+		};
+		80BE2D172DAF6F350084C2C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BE2CFA2DAF6F2C0084C2C2 /* ROS2iOS */;
+			targetProxy = 80BE2D162DAF6F350084C2C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80BE2D1D2DAF6F350084C2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80BE2D1E2DAF6F350084C2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80BE2D202DAF6F350084C2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = LQH27R6333;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiawen.ROS2iOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80BE2D212DAF6F350084C2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = LQH27R6333;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiawen.ROS2iOSApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80BE2D232DAF6F350084C2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiawen.ROS2iOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROS2iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ROS2iOS";
+			};
+			name = Debug;
+		};
+		80BE2D242DAF6F350084C2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiawen.ROS2iOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ROS2iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ROS2iOS";
+			};
+			name = Release;
+		};
+		80BE2D262DAF6F350084C2C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiawen.ROS2iOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ROS2iOSApp;
+			};
+			name = Debug;
+		};
+		80BE2D272DAF6F350084C2C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chiawen.ROS2iOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ROS2iOSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80BE2CF62DAF6F2C0084C2C2 /* Build configuration list for PBXProject "ROS2iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BE2D1D2DAF6F350084C2C2 /* Debug */,
+				80BE2D1E2DAF6F350084C2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BE2D1F2DAF6F350084C2C2 /* Build configuration list for PBXNativeTarget "ROS2iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BE2D202DAF6F350084C2C2 /* Debug */,
+				80BE2D212DAF6F350084C2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BE2D222DAF6F350084C2C2 /* Build configuration list for PBXNativeTarget "ROS2iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BE2D232DAF6F350084C2C2 /* Debug */,
+				80BE2D242DAF6F350084C2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BE2D252DAF6F350084C2C2 /* Build configuration list for PBXNativeTarget "ROS2iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BE2D262DAF6F350084C2C2 /* Debug */,
+				80BE2D272DAF6F350084C2C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80B7E2AD2DC15A6D007D4547 /* XCRemoteSwiftPackageReference "swift-ros2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LiaoChiawen/swift-ros2.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80B7E2AE2DC15A6D007D4547 /* SwiftROS2 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80B7E2AD2DC15A6D007D4547 /* XCRemoteSwiftPackageReference "swift-ros2" */;
+			productName = SwiftROS2;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 80BE2CF32DAF6F2C0084C2C2 /* Project object */;
+}
