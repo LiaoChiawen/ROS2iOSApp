@@ -7,6 +7,8 @@ tags: [ROS2, iOS, Swift, Tutorial]
 
 This document provides a detailed, step-by-step guide on building an iOS application integrated with ROS2 using the SwiftROS2 framework. In this guide, you will learn how to set up the project, configure ROS2 nodes, implement publishers and subscribers to exchange messages via DDS, and build a SwiftUI-based user interface for operating ROS2 functionality. In addition, this README offers an in-depth explanation of the dependency packages and how the DDS mechanism is implemented to support ROS2 communication. This guide assumes you have a basic understanding of Swift and iOS development. By the end, you will be able to create and run an iOS app that seamlessly interacts with ROS2 nodes.
 
+The complete code can be found at https://github.com/LiaoChiawen/ROS2iOSApp
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Background and Key Concepts](#background-and-key-concepts)
@@ -88,7 +90,7 @@ func initialize(){
 }
 ```
 
-### 3. Implementing Publishers and Subscribers
+### 3. Implementing Publishers
 Communication between nodes is achieved by creating both publishers and subscribers.
 
 - **Publishing:**  
@@ -114,8 +116,6 @@ public func sendString() {
 }
 ```
 
-- **Subscribing:**  
-  In `ROS2Manager.swift`, subscribers are created to listen for incoming messages. A callback function is registered to process messages received on a specified topic.
 
 ### 4. Building the User Interface
 The UI is built using SwiftUI and consists of three main buttons:
@@ -243,7 +243,7 @@ This guide provided a comprehensive walkthrough for building an iOS app integrat
 - Comprehensive studies of ROS2 communication patterns and best practices.
 
 ## References
-1. D. Liao, “SwiftROS2 – A Swift interface for ROS2 communication,” GitHub Repository, https://github.com/LiaoChiawen/swift-ros2.
+1. Y. Hu, swift-ros2 – ROS2-like node that supports subscription and publication of DDS messages in ROS2 message format” GitHub Repository, https://github.com/strapsai/swift-ros2.
 2. ROS Documentation, “Getting Started with ROS2,” available at https://docs.ros.org/.
 3. Fast RTPS Documentation, available at https://fast-dds.docs.eprosima.com/en/latest/.
 4. Apple Developer Documentation, “SwiftUI,” available at https://developer.apple.com/documentation/swiftui.

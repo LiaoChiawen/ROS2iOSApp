@@ -38,13 +38,10 @@ public class PublisherModel: ObservableObject {
         }
         
         self.centralNode = centralNode
-        
-        // 初始化 `/cmd_vel` 发布器。
+
         self.publisher = await self.centralNode!.createPublisher(
             owner: self.rosOwner,
-            topic: self.pubTopicPrefix,
-            willWriteToFile: false,
-            writeDestination: .light
+            topic: self.pubTopicPrefix
         )
         
         if self.publisher == nil {
